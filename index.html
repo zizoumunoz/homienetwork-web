@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <title>Homie Network</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="row title-background shadow">
+            <div class="col-12">
+                <div>
+                    <div class="container">
+                        <img src="hnlogo.png" class="logo">
+                        <span class="title-text">Homie Network </span><span class="ip-text"> mc.homienetwork.ca</span>
+                    </div>
+                </div>
+                <div class="d-block d-sm-none">This website is not currently optimized for phones :(</div>
+            </div>
+        </div>
+        <br>
+    </header>
+    <main class="container">
+
+        <!-- CAROUSSEL -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="carouselExampleControls" class="carousel slide shadow" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/screenshot1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <!-- <div class="carousel-item">
+                            <img src="img/screenshot2.png" class="d-block w-100" alt="...">
+                        </div> -->
+                        <!-- FORMAT THE FOLLOWING PICTURE -->
+                        <div class="carousel-item">
+                            <img src="img/screenshot2a.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/screenshot3.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/screenshot3a.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/screenshot4.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/screenshot5.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/screenshot5a.png" class="d-block w-100">
+                        </div>
+                        <!-- FORMAT THE FOLLOWING PICTURE -->
+                        <!-- <div class="carousel-item">
+                            <img src="img/screenshot6.png" class="d-block w-100">
+                        </div> -->
+                        <div class="carousel-item">
+                            <img src="img/screenshot7.png" class="d-block w-100">
+                        </div>
+                        <!-- FORMAT THE FOLLOWING PICTURE -->
+                        <!-- <div class="carousel-item">
+                            <img src="img/screenshot8.png" class="d-block w-100">
+                        </div> -->
+                        <div class="carousel-item">
+                            <img src="img/screenshot9.png" class="d-block w-100">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- END CAROUSSEL -->
+        <br>
+        <div class="row">
+            <hr>
+            <div class="col-sm-12 col-md-6 body-text">
+                Welcome to the Homie Network! We're an SMP server designed to provide an
+                improved vanilla experience, with a welcoming community, composed of a group
+                of excellent builders, technical players, and caring people.
+                <hr>
+                <ul class="list-unstyled">
+                    <li>Status: <span id="serverstatus"></span></li>
+                    <li>Version: <span id="serverversion"></span></li>
+                    <li>Online Players: <span id="playerno"></span></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+                <ul class="list-group shadow-sm body-text">
+                    <a href="https://discord.gg/vKP6Jwd">
+                        <li class="list-group-item list-group-item-action">Discord Server</li>
+                    </a>
+                    <a href="https://map.homienetwork.ca">
+                        <li class="list-group-item list-group-item-action">Online Server Map</li>
+                    </a>
+                    <a href="https://patreon.com/homienetwork">
+                        <li class="list-group-item list-group-item-action">Our Patreon</li>
+                    </a>
+                    <a href="homwiki.html">
+                        <li class="list-group-item list-group-item-action">Wiki</li>
+                    </a>
+                    <a>
+                        <li class="list-group-item list-group-item-dark">Gallery</li>
+                    </a>
+                    <a href="aboutus.html">
+                        <li class="list-group-item list-group-item-action">About Us</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <!-- INFO CARDS START -->
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-header">
+                        Claims
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text">This is info about claims. Wow!</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-header">
+                        Community Warps
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text">Something about community warps. The button below goes to the wiki.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-header">
+                        About
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet bababooey bazinga.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- INFO CARDS END -->
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <div class="ratio ratio-16x9 round-corners">
+                    <iframe src="https://192.168.1.70" title="Server Map" class="shadow"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer class="container">
+        <h4>Thanks to our patreons ♥</h4>
+        <ul class="list-inline">
+            <li class="list-inline-item">carey_priceless</li>
+            <li class="list-inline-item">•</li>
+            <li class="list-inline-item">Chief_Jeef_</li>
+            <li class="list-inline-item">•</li>
+            <li class="list-inline-item">HoneyBBQSauce</li>
+            <li class="list-inline-item">•</li>
+            <li class="list-inline-item">Its_Not_Seen</li>
+            <li class="list-inline-item">•</li>
+            <li class="list-inline-item">MONAW</li>
+            <li class="list-inline-item">•</li>
+            <li class="list-inline-item">nniku</li>
+        </ul>
+
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
