@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;800&display=swap');
 a {
     text-decoration: none;
     color: black;
 }
 
+ul {
+    list-style: square;
+}
+
 .home-link {
     color: #ffffff;
-    
+
 }
 
 .home-link:hover {
-    color:white;
+    color: white;
 }
 
 .center {
@@ -30,12 +34,12 @@ a {
 }
 
 .title-background {
-    background: linear-gradient(210deg, rgba(0,255,215,1) 0%, rgba(232,0,255,1) 100%);
+    background: linear-gradient(210deg, rgba(0, 255, 215, 1) 0%, rgba(232, 0, 255, 1) 100%);
     font-size: 40pt;
     font-weight: 700;
     color: white;
     padding-top: 40px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
     padding-left: 50px;
     font-family: 'DM Sans', sans-serif;
 
@@ -62,6 +66,19 @@ a {
     font-size: 20px;
 }
 
+.big-text {
+    text-align: left;
+    font-family: 'Assistant', sans-serif;
+    font-size: 40px;
+}
+
+.normal-text {
+    text-align: left;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .logo {
     max-width: 100px;
     height: auto;
@@ -69,4 +86,3 @@ a {
     top: -5px;
     left: -30px;
 }
-
