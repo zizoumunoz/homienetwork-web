@@ -1,2 +1,2 @@
 # homienetwork-web
-This is the website for the Homie Network of servers.
+This is the repo for the Homie Network website.
