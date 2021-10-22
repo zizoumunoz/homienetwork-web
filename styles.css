@@ -46,6 +46,18 @@ ul {
     position: relative;
 }
 
+.modded-title-background {
+    background: linear-gradient(210deg, rgba(251, 218, 97, 1) 0%, rgba(255, 90, 205, 1) 100%);
+    font-size: 40pt;
+    font-weight: 700;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    font-family: 'DM Sans', sans-serif;
+
+    position: relative;
+}
 .title-text {
     padding-left: 20px;
     position: relative;
