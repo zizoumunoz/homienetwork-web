@@ -98,3 +98,8 @@ ul {
     top: -5px;
     left: -30px;
 }
+
+.bolded {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
