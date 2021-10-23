@@ -73,7 +73,7 @@ ul {
 }
 
 .body-text {
-    text-align: justify;
+    text-align: left;
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
 }
