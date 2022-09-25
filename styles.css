@@ -103,3 +103,9 @@ ul {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
 }
+
+/* bootstrap modifiers */
+.navbar {
+    font-size: large;
+    font-weight:400;
+}

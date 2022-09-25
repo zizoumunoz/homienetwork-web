@@ -8,11 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+
     <link href="styles.css" rel="stylesheet">
     <title>Homie Network</title>
     <link rel="icon" href="favicon.ico" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/js/script.js"></script>
 
@@ -31,7 +34,6 @@
                             mc.homienetwork.ca</span>
                     </div>
                 </div>
-                <div class="d-block d-sm-none">This website is not currently optimized for phones :(</div>
             </div>
         </div>
 
@@ -42,7 +44,7 @@
                 <!-- navbar title -->
                 <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 
-                <!-- navbar setup -->
+                <!-- navbar toggler -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -62,12 +64,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="https://discord.gg/vKP6Jwd">Discord</a>
                         </li>
-                        
+
                         <!-- map -->
                         <li class="nav-item">
                             <a class="nav-link" href="map.homienetwork.ca">Map</a>
                         </li>
-                        
+
                         <!-- patreon -->
                         <li class="nav-item">
                             <a class="nav-link" href="https://patreon.com/homieserver">Patreon</a>
@@ -78,13 +80,13 @@
                         <!-- <li class="nav-item">
                             <a class="nav-link">Ko-Fi</a>
                         </li> -->
-                        
+
                         <!-- gallery -->
 
                         <!-- <li class="nav-item">
                             <a class="nav-link disabled">Gallery</a>
                         </li> -->
-                        
+
                         <!-- modded -->
 
                         <!-- <li class="nav-item">
@@ -169,19 +171,23 @@
         <br><br>
         <div class="row">
 
-            <div class="col-sm-12 col-md-6 body-text">
+            <div class="col-sm-12 body-text">
                 Welcome to the Homie Network! We're an SMP server designed to provide an
                 improved vanilla experience, with a welcoming community, composed of a group
                 of excellent builders, technical players, and caring people.
                 <br><br>
 
+                For information about our modded server, join our <a href="https://discord.gg/vKP6Jwd"
+                    class="link bolded">Discord</a>!
+            </div>
+
+            
+            <div class="col-sm-12 col-md-6 body-text"><br>
                 <ul class="list-unstyled">
                     <li>Status: <span id="serverstatus"></span></li>
                     <li>Version: <span id="serverversion"></span></li>
                     <li>Online Players: <span id="playerno"></span></li>
                 </ul>
-                For information about our modded server, join our <a href="https://discord.gg/vKP6Jwd"
-                    class="link bolded">Discord</a>!
             </div>
             <!-- LINK LIST -->
             <!-- <div class="col-sm-12 col-md-6">
@@ -214,7 +220,7 @@
                     <li class="list-group-item list-group-item-dark bolded">About Us</li>
 
                 </ul>
-            </div> --> -->
+            </div> -->
             <!-- LINK LIST END -->
         </div>
         <!-- INFO CARDS START -->
