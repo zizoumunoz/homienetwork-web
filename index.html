@@ -30,8 +30,12 @@
                     <div class="container">
                         <img src="img/hnlogo.png" class="logo" alt="Homie Server Logo">
 
-                        <span class="title-text">Homie Network </span><span class="ip-text">
-                            mc.homienetwork.ca</span>
+                        <span class="title-text">Homie Network </span>
+
+
+                        <span id="ip-text" value="mc.homienetwork.ca">mc.homienetwork.ca</span>
+
+
                     </div>
                 </div>
             </div>
@@ -75,6 +79,8 @@
                             <a class="nav-link" href="https://patreon.com/homieserver">Patreon</a>
                         </li>
 
+                        
+
                         <!-- ko-fi -->
 
                         <!-- <li class="nav-item">
@@ -99,6 +105,9 @@
                             <a class="nav-link disabled">Wiki</a>
                         </li> -->
                     </ul>
+                    <button onclick="copyToClipboard()" type="button" class="btn navbar-text">
+                        <b>Copy IP</b>
+                    </button>
                 </div>
             </div>
         </nav>

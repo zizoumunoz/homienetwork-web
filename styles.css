@@ -16,6 +16,14 @@ ul {
 }
 
 
+#ip-text {
+    color: #ffffff;
+    font-size: 40%;
+
+    position: relative;
+    left: -30px;
+}
+
 
 .center {
     margin: auto;
@@ -64,13 +72,6 @@ ul {
     left: -30px;
 }
 
-.ip-text {
-    color: #ffffff;
-    font-size: 40%;
-
-    position: relative;
-    left: -30px;
-}
 
 .body-text {
     text-align: left;
