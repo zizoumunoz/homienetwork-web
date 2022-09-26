@@ -4,8 +4,7 @@
 // Variables
 
 // Fonts
-$Assistant: 'Assistant', sans-serif;
-$DM-Sans: 'DM Sans', sans-serif;
+$regular-font: 'DM Sans', sans-serif;
 
 
 a {
@@ -55,7 +54,7 @@ ul {
     padding-top: 40px;
     padding-bottom: 30px;
     padding-left: 50px;
-    font-family: $DM-Sans;
+    font-family: $regular-font;
 
     position: relative;
 }
@@ -68,7 +67,7 @@ ul {
     padding-top: 40px;
     padding-bottom: 30px;
     padding-left: 50px;
-    font-family: $DM-Sans;
+    font-family: $regular-font;
 
     position: relative;
 }
@@ -82,7 +81,7 @@ ul {
 
 .body-text {
     text-align: left;
-    font-family: $DM-Sans;
+    font-family: $regular-font;
     font-size: 20px;
 }
 
@@ -95,7 +94,7 @@ ul {
 }
 
 .bolded {
-    font-family: 'DM Sans', sans-serif;
+    font-family: $regular-font;
     font-weight: 700;
 }
 
