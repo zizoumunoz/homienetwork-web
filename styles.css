@@ -71,19 +71,6 @@ ul {
   font-size: 20px;
 }
 
-.big-text {
-  text-align: left;
-  font-family: "Assistant", sans-serif;
-  font-size: 40px;
-}
-
-.normal-text {
-  text-align: left;
-  font-family: "Assistant", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-}
-
 .logo {
   max-width: 100px;
   height: auto;
