@@ -1,112 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;800&display=swap");
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 ul {
-    list-style: square;
+  list-style: square;
 }
 
 .home-link {
-    color: #ffffff;
-
+  color: #ffffff;
 }
-
 
 #ip-text {
-    color: #ffffff;
-    font-size: 40%;
-
-    position: relative;
-    left: -30px;
+  color: #ffffff;
+  font-size: 40%;
+  position: relative;
+  left: -30px;
 }
 
-
 .center {
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
 }
 
 .round-corners {
-    border-radius: 5px;
-    width: 100%;
-    overflow: hidden;
+  border-radius: 5px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .link {
-    color: #2d8295;
+  color: #2d8295;
 }
 
 .title-background {
-    background: linear-gradient(210deg, rgba(0, 255, 215, 1) 0%, rgba(232, 0, 255, 1) 100%);
-    font-size: 40pt;
-    font-weight: 700;
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    font-family: 'DM Sans', sans-serif;
-
-    position: relative;
+  background: linear-gradient(210deg, rgb(0, 255, 215) 0%, rgb(232, 0, 255) 100%);
+  font-size: 40pt;
+  font-weight: 700;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  font-family: "DM Sans", sans-serif;
+  position: relative;
 }
 
 .modded-title-background {
-    background: linear-gradient(210deg, rgba(251, 218, 97, 1) 0%, rgba(255, 90, 205, 1) 100%);
-    font-size: 40pt;
-    font-weight: 700;
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    font-family: 'DM Sans', sans-serif;
-
-    position: relative;
+  background: linear-gradient(210deg, rgb(251, 218, 97) 0%, rgb(255, 90, 205) 100%);
+  font-size: 40pt;
+  font-weight: 700;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  font-family: "DM Sans", sans-serif;
+  position: relative;
 }
 
 .title-text {
-    padding-left: 20px;
-    position: relative;
-    left: -30px;
+  padding-left: 20px;
+  position: relative;
+  left: -30px;
 }
 
-
 .body-text {
-    text-align: left;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
+  text-align: left;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
 }
 
 .big-text {
-    text-align: left;
-    font-family: 'Assistant', sans-serif;
-    font-size: 40px;
+  text-align: left;
+  font-family: "Assistant", sans-serif;
+  font-size: 40px;
 }
 
 .normal-text {
-    text-align: left;
-    font-family: 'Assistant', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+  text-align: left;
+  font-family: "Assistant", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .logo {
-    max-width: 100px;
-    height: auto;
-    position: relative;
-    top: -5px;
-    left: -30px;
+  max-width: 100px;
+  height: auto;
+  position: relative;
+  top: -5px;
+  left: -30px;
 }
 
 .bolded {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
 }
 
 /* bootstrap modifiers */
 .navbar {
-    font-size: large;
-    font-weight: 400;
-}
+  font-size: large;
+  font-weight: 400;
+}/*# sourceMappingURL=styles.css.map */
