@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;800&display=swap');
 
-// Variables
+// VARIABLES
 // Fonts
 $regular-font: 'DM Sans', sans-serif;
+// Colors
+$link-color: #2d8295;
 
 a {
     text-decoration: none;
@@ -39,7 +41,7 @@ ul {
 }
 
 .link {
-    color: #2d8295;
+    color: $link-color;
 }
 
 .title-background {
