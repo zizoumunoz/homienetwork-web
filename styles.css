@@ -9,6 +9,11 @@ ul {
   list-style: square;
 }
 
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .home-link {
   color: #ffffff;
 }
