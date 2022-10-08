@@ -2,18 +2,26 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <!-- Required meta tags -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+
     <link href="styles.css" rel="stylesheet">
     <title>Homie Network</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="/js/script.js"></script>
+    <link rel="icon" href="favicon.ico" />
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,15 +35,97 @@
 
                     <span class="title-text">Homie Network </span>
 
-
                     <span id="ip-text" value="mc.homienetwork.ca">mc.homienetwork.ca</span>
-
 
                 </div>
             </div>
         </div>
     </div>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container">
 
+            <!-- navbar title -->
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+            <!-- navbar toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navbar button list -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <!-- home -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <!-- discord -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.gg/vKP6Jwd">Discord</a>
+                    </li>
+
+                    <!-- map -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="map.homienetwork.ca">Map</a>
+                    </li>
+
+                    <!-- wiki -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/homwiki.html">Wiki</a>
+                    </li>
+
+                    <!-- github -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/zizoumunoz/homienetwork-web">GitHub</a>
+                    </li>
+
+                    <!-- donations -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Donations</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://patreon.com/homieserver">Patreon</a></li>
+                            <li><a class="dropdown-item" href="https://ko-fi.com/homieserver">Ko-Fi</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <!-- ko-fi -->
+
+                    <!-- <li class="nav-item">
+                            <a class="nav-link">Ko-Fi</a>
+                        </li> -->
+
+                    <!-- gallery -->
+
+                    <!-- <li class="nav-item">
+                            <a class="nav-link disabled">Gallery</a>
+                        </li> -->
+
+                    <!-- modded -->
+
+                    <!-- <li class="nav-item">
+                            <a class="nav-link disabled">Modded</a>
+                        </li>            -->
+
+                    <!-- wiki -->
+
+                    <!-- <li class="nav-item">
+                            <a class="nav-link disabled">Wiki</a>
+                        </li> -->
+                </ul>
+                <button onclick="copyToClipboard()" type="button" class="btn navbar-text">
+                    <b>Copy IP</b>
+                </button>
+
+            </div>
+        </div>
+    </nav>
     <br>
 
     <main class="container">
